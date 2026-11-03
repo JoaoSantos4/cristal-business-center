@@ -6,14 +6,14 @@ function About() {
       className="bg-[#18191D] px-6 py-24"
     >
       <div className="mx-auto grid max-w-7xl items-center gap-12 md:grid-cols-2">
-
-        {/* Imagem */}
-        <div className="overflow-hidden rounded-lg">
+        <div className="overflow-hidden rounded-lg bg-[#101115]">
           <img
-            src="/images/sobre.jpg"
-            className="h-[450px] w-full object-cover transition-transform duration-500 hover:scale-105"
+            src="/images/sobre.png"
+            alt="Conceito ilustrativo de recepção corporativa"
+            className="h-auto w-full object-contain md:h-[450px] md:object-cover md:object-center"
           />
-        </div>
+</div>
+
 
         {/* Conteúdo */}
         <div>

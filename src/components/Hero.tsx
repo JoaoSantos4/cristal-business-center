@@ -5,13 +5,14 @@ function Hero() {
       id="inicio"
       className="relative flex min-h-[calc(100svh-81px)] w-full items-center justify-center overflow-hidden bg-[#101115]"
     >
-      {/* Imagem de fundo */}
+      {/* Imagem de fundo */}      
       <div
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-[position:55%_center] md:bg-center"
         style={{
           backgroundImage: "url('/images/hero.jpg')",
         }}
       />
+
 
       {/* Camada escura */}
       <div className="absolute inset-0 bg-black/70" />
