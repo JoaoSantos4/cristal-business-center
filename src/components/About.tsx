@@ -1,4 +1,3 @@
-
 function About() {
   return (
     <section
@@ -8,7 +7,7 @@ function About() {
       <div className="mx-auto grid max-w-7xl items-center gap-12 md:grid-cols-2">
         <div className="overflow-hidden rounded-lg bg-[#101115]">
           <img
-            src="/images/sobre.png"
+            src="/images/sobre.jpg"
             alt="Conceito ilustrativo de recepção corporativa"
             className="h-auto w-full object-contain md:h-[450px] md:object-cover md:object-center"
           />
